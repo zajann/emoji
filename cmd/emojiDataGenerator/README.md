@@ -11,7 +11,7 @@ The tool generate Emoji Data and create data file.
 
 ## Data File(.go)
 
-The tool create [data file](https://github.com/zajann/emoji/internal/data/emojiMap.go). Path is fixed to the relative path (`../../internal/data/emojiMap.go`)
+The tool create [data file](https://github.com/zajann/emoji/blob/master/internal/data/emojiMap.go). Path is fixed to the relative path (`../../internal/data/emojiMap.go`)
 
 *MUST KEEP THIE PATH. OR PROGRAM WILL BROKEN*
 
