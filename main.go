@@ -7,9 +7,15 @@ import (
 	"github.com/zajann/emoji/internal/data"
 )
 
+var emojis data.EmojiMap
+
+func init() {
+	emojis = data.Emojis
+}
+
 func printEmoji(shortcode string) {
 	shortcode = fmt.Sprintf(":%s:", shortcode)
-	code, ok := data.Emojis[shortcode]
+	code, ok := emojis[shortcode]
 	if !ok {
 		fmt.Printf("there is no emoji of '%s'\n", shortcode)
 	} else {
@@ -20,7 +26,7 @@ func printEmoji(shortcode string) {
 func searchEmojiByTag(tag string) {
 	codeMap := make(map[string]string)
 
-	for k, v := range data.Emojis {
+	for k, v := range emojis {
 		if _, ok := v.TagMap[tag]; ok {
 			codeMap[k] = v.Unicode
 		}
@@ -37,8 +43,7 @@ func searchEmojiByTag(tag string) {
 }
 
 func main() {
-
 	sc := os.Args[1]
-	// printEmoji(sc)
+	printEmoji(sc)
 	searchEmojiByTag(sc)
 }
