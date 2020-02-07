@@ -64,7 +64,11 @@ A command-line tool for searching Emoji. You can check the Emoji you want direct
 
 ## Demo
 
+![demo](screen/animator.svg)
 
+- Full Demo
+
+[<img src="https://asciinema.org/a/298893.svg" />](https://asciinema.org/a/298893)
 
 
 
