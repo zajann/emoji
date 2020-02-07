@@ -2,7 +2,7 @@
 
 > Inspired by [kyokomi/emoji](https://github.com/kyokomi/emoji)
 
-A command-line tool for searching Emoji. You can check the Emoji you want directly on your `shell` witout annoying web search. `Emoji` is written in [Go](https://golang.org/) with support for multiple platforms.
+A command-line tool for searching Emoji. You can check the Emoji you want directly on your `shell` without annoying web search. `Emoji` is written in [Go](https://golang.org/) with support for multiple platforms.
 
 
 
@@ -44,7 +44,7 @@ A command-line tool for searching Emoji. You can check the Emoji you want direct
   $ emoji apple banana kiwi
   ```
 
-- **Randomly**
+- **Random**
 
   Use `-r` option to get Emoji randomly (default outputs: 10)
 
@@ -52,9 +52,9 @@ A command-line tool for searching Emoji. You can check the Emoji you want direct
   $ emoji -r
   ```
 
-- **Randomly with number**
+- **Random on number**
 
-  Yon can query with number and `-r` option  to get more or less.
+  Yon can query on number with `-r` option  to get more or less.
 
   ```
   $ emoji -r 20
@@ -75,8 +75,3 @@ A command-line tool for searching Emoji. You can check the Emoji you want direct
 ## License
 
 [MIT](https://github.com/zajann/emoji/blob/master/LICENSE)
-
-
-
-
-
