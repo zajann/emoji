@@ -74,8 +74,11 @@ func searchEmoji(keyword string) codeMap {
 		c[shortcode] = code.Unicode
 	}
 
-	// search tags match
+	// search tags match & contains keyword in key
 	for k, v := range emojis {
+		if strings.Contains(k, keyword) {
+			c[k] = v.Unicode
+		}
 		if _, ok := v.TagMap[keyword]; ok {
 			if _, ok := c[k]; !ok {
 				c[k] = v.Unicode
