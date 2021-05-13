@@ -23622,6 +23622,10 @@ var Emojis = EmojiMap{
 			"love": struct{}{},
 		},
 	},
+	":smiling_face_with_tear:": Code{
+		"\U0001f972",
+		map[string]struct{}{},
+	},
 	":zany_face:": Code{
 		"\U0001f92a",
 		map[string]struct{}{
@@ -23712,6 +23716,10 @@ var Emojis = EmojiMap{
 			"celebration": struct{}{},
 			"birthday":    struct{}{},
 		},
+	},
+	":disguised_face:": Code{
+		"\U0001f978",
+		map[string]struct{}{},
 	},
 	":nerd_face:": Code{
 		"\U0001f913",
@@ -23826,6 +23834,10 @@ var Emojis = EmojiMap{
 			"spock":   struct{}{},
 		},
 	},
+	":pinched_fingers:": Code{
+		"\U0001f90c",
+		map[string]struct{}{},
+	},
 	":pinching_hand:": Code{
 		"\U0001f90f",
 		map[string]struct{}{},
@@ -23903,6 +23915,14 @@ var Emojis = EmojiMap{
 	},
 	":ear_with_hearing_aid:": Code{
 		"\U0001f9bb",
+		map[string]struct{}{},
+	},
+	":anatomical_heart:": Code{
+		"\U0001fac0",
+		map[string]struct{}{},
+	},
+	":lungs:": Code{
+		"\U0001fac1",
 		map[string]struct{}{},
 	},
 	":tooth:": Code{
@@ -24238,6 +24258,10 @@ var Emojis = EmojiMap{
 		"\U0001f482\u200d\u2640\ufe0f",
 		map[string]struct{}{},
 	},
+	":ninja:": Code{
+		"\U0001f977",
+		map[string]struct{}{},
+	},
 	":construction_worker_man:": Code{
 		"\U0001f477\u200d\u2642\ufe0f",
 		map[string]struct{}{
@@ -24264,6 +24288,49 @@ var Emojis = EmojiMap{
 	},
 	":man_with_gua_pi_mao:": Code{
 		"\U0001f472",
+		map[string]struct{}{},
+	},
+	":person_in_tuxedo:": Code{
+		"\U0001f935",
+		map[string]struct{}{
+			"groom":    struct{}{},
+			"marriage": struct{}{},
+			"wedding":  struct{}{},
+		},
+	},
+	":woman_in_tuxedo:": Code{
+		"\U0001f935\u200d\u2640\ufe0f",
+		map[string]struct{}{},
+	},
+	":person_with_veil:": Code{
+		"\U0001f470",
+		map[string]struct{}{
+			"marriage": struct{}{},
+			"wedding":  struct{}{},
+		},
+	},
+	":man_with_veil:": Code{
+		"\U0001f470\u200d\u2642\ufe0f",
+		map[string]struct{}{},
+	},
+	":woman_with_veil:": Code{
+		"\U0001f470\u200d\u2640\ufe0f",
+		map[string]struct{}{},
+	},
+	":woman_feeding_baby:": Code{
+		"\U0001f469\u200d\U0001f37c",
+		map[string]struct{}{},
+	},
+	":man_feeding_baby:": Code{
+		"\U0001f468\u200d\U0001f37c",
+		map[string]struct{}{},
+	},
+	":person_feeding_baby:": Code{
+		"\U0001f9d1\u200d\U0001f37c",
+		map[string]struct{}{},
+	},
+	":mx_claus:": Code{
+		"\U0001f9d1\u200d\U0001f384",
 		map[string]struct{}{},
 	},
 	":superhero:": Code{
@@ -24782,6 +24849,10 @@ var Emojis = EmojiMap{
 		"\U0001f469\u200d\U0001f469\u200d\U0001f467\u200d\U0001f467",
 		map[string]struct{}{},
 	},
+	":people_hugging:": Code{
+		"\U0001fac2",
+		map[string]struct{}{},
+	},
 	":orangutan:": Code{
 		"\U0001f9a7",
 		map[string]struct{}{},
@@ -24802,12 +24873,24 @@ var Emojis = EmojiMap{
 		"\U0001f99d",
 		map[string]struct{}{},
 	},
+	":black_cat:": Code{
+		"\U0001f408\u200d\u2b1b",
+		map[string]struct{}{},
+	},
 	":lion:": Code{
 		"\U0001f981",
 		map[string]struct{}{},
 	},
+	":bison:": Code{
+		"\U0001f9ac",
+		map[string]struct{}{},
+	},
 	":llama:": Code{
 		"\U0001f999",
+		map[string]struct{}{},
+	},
+	":mammoth:": Code{
+		"\U0001f9a3",
 		map[string]struct{}{},
 	},
 	":rhinoceros:": Code{
@@ -24816,6 +24899,14 @@ var Emojis = EmojiMap{
 	},
 	":hippopotamus:": Code{
 		"\U0001f99b",
+		map[string]struct{}{},
+	},
+	":beaver:": Code{
+		"\U0001f9ab",
+		map[string]struct{}{},
+	},
+	":polar_bear:": Code{
+		"\U0001f43b\u200d\u2744\ufe0f",
 		map[string]struct{}{},
 	},
 	":sloth:": Code{
@@ -24846,6 +24937,14 @@ var Emojis = EmojiMap{
 		"\U0001f9a2",
 		map[string]struct{}{},
 	},
+	":dodo:": Code{
+		"\U0001f9a4",
+		map[string]struct{}{},
+	},
+	":feather:": Code{
+		"\U0001fab6",
+		map[string]struct{}{},
+	},
 	":flamingo:": Code{
 		"\U0001f9a9",
 		map[string]struct{}{},
@@ -24868,12 +24967,34 @@ var Emojis = EmojiMap{
 		"\U0001f42c",
 		map[string]struct{}{},
 	},
+	":seal:": Code{
+		"\U0001f9ad",
+		map[string]struct{}{},
+	},
 	":honeybee:": Code{
 		"\U0001f41d",
 		map[string]struct{}{},
 	},
+	":lady_beetle:": Code{
+		"\U0001f41e",
+		map[string]struct{}{
+			"bug": struct{}{},
+		},
+	},
+	":cockroach:": Code{
+		"\U0001fab3",
+		map[string]struct{}{},
+	},
 	":mosquito:": Code{
 		"\U0001f99f",
+		map[string]struct{}{},
+	},
+	":fly:": Code{
+		"\U0001fab0",
+		map[string]struct{}{},
+	},
+	":worm:": Code{
+		"\U0001fab1",
 		map[string]struct{}{},
 	},
 	":microbe:": Code{
@@ -24884,6 +25005,10 @@ var Emojis = EmojiMap{
 	},
 	":wilted_flower:": Code{
 		"\U0001f940",
+		map[string]struct{}{},
+	},
+	":potted_plant:": Code{
+		"\U0001fab4",
 		map[string]struct{}{},
 	},
 	":orange:": Code{
@@ -24898,8 +25023,20 @@ var Emojis = EmojiMap{
 		"\U0001f96d",
 		map[string]struct{}{},
 	},
+	":blueberries:": Code{
+		"\U0001fad0",
+		map[string]struct{}{},
+	},
 	":kiwi_fruit:": Code{
 		"\U0001f95d",
+		map[string]struct{}{},
+	},
+	":olive:": Code{
+		"\U0001fad2",
+		map[string]struct{}{},
+	},
+	":bell_pepper:": Code{
+		"\U0001fad1",
 		map[string]struct{}{},
 	},
 	":leafy_green:": Code{
@@ -24918,12 +25055,20 @@ var Emojis = EmojiMap{
 		"\U0001f956",
 		map[string]struct{}{},
 	},
+	":flatbread:": Code{
+		"\U0001fad3",
+		map[string]struct{}{},
+	},
 	":bagel:": Code{
 		"\U0001f96f",
 		map[string]struct{}{},
 	},
 	":waffle:": Code{
 		"\U0001f9c7",
+		map[string]struct{}{},
+	},
+	":tamale:": Code{
+		"\U0001fad4",
 		map[string]struct{}{},
 	},
 	":falafel:": Code{
@@ -24935,6 +25080,10 @@ var Emojis = EmojiMap{
 		map[string]struct{}{
 			"breakfast": struct{}{},
 		},
+	},
+	":fondue:": Code{
+		"\U0001fad5",
+		map[string]struct{}{},
 	},
 	":green_salad:": Code{
 		"\U0001f957",
@@ -24968,12 +25117,20 @@ var Emojis = EmojiMap{
 		"\U0001f95b",
 		map[string]struct{}{},
 	},
+	":teapot:": Code{
+		"\U0001fad6",
+		map[string]struct{}{},
+	},
 	":clinking_glasses:": Code{
 		"\U0001f942",
 		map[string]struct{}{
 			"cheers": struct{}{},
 			"toast":  struct{}{},
 		},
+	},
+	":bubble_tea:": Code{
+		"\U0001f9cb",
+		map[string]struct{}{},
 	},
 	":beverage_box:": Code{
 		"\U0001f9c3",
@@ -25027,6 +25184,18 @@ var Emojis = EmojiMap{
 		"\U0001f9f1",
 		map[string]struct{}{},
 	},
+	":rock:": Code{
+		"\U0001faa8",
+		map[string]struct{}{},
+	},
+	":wood:": Code{
+		"\U0001fab5",
+		map[string]struct{}{},
+	},
+	":hut:": Code{
+		"\U0001f6d6",
+		map[string]struct{}{},
+	},
 	":houses:": Code{
 		"\U0001f3d8\ufe0f",
 		map[string]struct{}{},
@@ -25045,6 +25214,10 @@ var Emojis = EmojiMap{
 	},
 	":car:": Code{
 		"\U0001f697",
+		map[string]struct{}{},
+	},
+	":pickup_truck:": Code{
+		"\U0001f6fb",
 		map[string]struct{}{},
 	},
 	":racing_car:": Code{
@@ -25069,6 +25242,10 @@ var Emojis = EmojiMap{
 	},
 	":skateboard:": Code{
 		"\U0001f6f9",
+		map[string]struct{}{},
+	},
+	":roller_skate:": Code{
+		"\U0001f6fc",
 		map[string]struct{}{},
 	},
 	":oil_drum:": Code{
@@ -25264,6 +25441,10 @@ var Emojis = EmojiMap{
 		"\U0001fa81",
 		map[string]struct{}{},
 	},
+	":magic_wand:": Code{
+		"\U0001fa84",
+		map[string]struct{}{},
+	},
 	":nazar_amulet:": Code{
 		"\U0001f9ff",
 		map[string]struct{}{},
@@ -25274,6 +25455,14 @@ var Emojis = EmojiMap{
 	},
 	":teddy_bear:": Code{
 		"\U0001f9f8",
+		map[string]struct{}{},
+	},
+	":pinata:": Code{
+		"\U0001fa85",
+		map[string]struct{}{},
+	},
+	":nesting_dolls:": Code{
+		"\U0001fa86",
 		map[string]struct{}{},
 	},
 	":chess_pawn:": Code{
@@ -25288,8 +25477,16 @@ var Emojis = EmojiMap{
 		"\U0001f9f5",
 		map[string]struct{}{},
 	},
+	":sewing_needle:": Code{
+		"\U0001faa1",
+		map[string]struct{}{},
+	},
 	":yarn:": Code{
 		"\U0001f9f6",
+		map[string]struct{}{},
+	},
+	":knot:": Code{
+		"\U0001faa2",
 		map[string]struct{}{},
 	},
 	":goggles:": Code{
@@ -25330,6 +25527,10 @@ var Emojis = EmojiMap{
 			"bags": struct{}{},
 		},
 	},
+	":thong_sandal:": Code{
+		"\U0001fa74",
+		map[string]struct{}{},
+	},
 	":shoe:": Code{
 		"\U0001f45e",
 		map[string]struct{}{},
@@ -25346,6 +25547,10 @@ var Emojis = EmojiMap{
 		"\U0001fa70",
 		map[string]struct{}{},
 	},
+	":military_helmet:": Code{
+		"\U0001fa96",
+		map[string]struct{}{},
+	},
 	":rescue_worker_helmet:": Code{
 		"\u26d1\ufe0f",
 		map[string]struct{}{},
@@ -25356,8 +25561,16 @@ var Emojis = EmojiMap{
 			"podcast": struct{}{},
 		},
 	},
+	":accordion:": Code{
+		"\U0001fa97",
+		map[string]struct{}{},
+	},
 	":banjo:": Code{
 		"\U0001fa95",
+		map[string]struct{}{},
+	},
+	":long_drum:": Code{
+		"\U0001fa98",
 		map[string]struct{}{},
 	},
 	":phone:": Code{
@@ -25408,15 +25621,17 @@ var Emojis = EmojiMap{
 			"press": struct{}{},
 		},
 	},
+	":coin:": Code{
+		"\U0001fa99",
+		map[string]struct{}{},
+	},
 	":receipt:": Code{
 		"\U0001f9fe",
 		map[string]struct{}{},
 	},
 	":email:": Code{
-		"\u2709\ufe0f",
-		map[string]struct{}{
-			"letter": struct{}{},
-		},
+		"\U0001f4e7",
+		map[string]struct{}{},
 	},
 	":fountain_pen:": Code{
 		"\U0001f58b\ufe0f",
@@ -25465,6 +25680,18 @@ var Emojis = EmojiMap{
 		"\U0001f6e0\ufe0f",
 		map[string]struct{}{},
 	},
+	":boomerang:": Code{
+		"\U0001fa83",
+		map[string]struct{}{},
+	},
+	":carpentry_saw:": Code{
+		"\U0001fa9a",
+		map[string]struct{}{},
+	},
+	":screwdriver:": Code{
+		"\U0001fa9b",
+		map[string]struct{}{},
+	},
 	":clamp:": Code{
 		"\U0001f5dc\ufe0f",
 		map[string]struct{}{},
@@ -25477,12 +25704,20 @@ var Emojis = EmojiMap{
 		"\U0001f9af",
 		map[string]struct{}{},
 	},
+	":hook:": Code{
+		"\U0001fa9d",
+		map[string]struct{}{},
+	},
 	":toolbox:": Code{
 		"\U0001f9f0",
 		map[string]struct{}{},
 	},
 	":magnet:": Code{
 		"\U0001f9f2",
+		map[string]struct{}{},
+	},
+	":ladder:": Code{
+		"\U0001fa9c",
 		map[string]struct{}{},
 	},
 	":test_tube:": Code{
@@ -25509,12 +25744,32 @@ var Emojis = EmojiMap{
 		"\U0001fa7a",
 		map[string]struct{}{},
 	},
+	":elevator:": Code{
+		"\U0001f6d7",
+		map[string]struct{}{},
+	},
+	":mirror:": Code{
+		"\U0001fa9e",
+		map[string]struct{}{},
+	},
+	":window:": Code{
+		"\U0001fa9f",
+		map[string]struct{}{},
+	},
 	":couch_and_lamp:": Code{
 		"\U0001f6cb\ufe0f",
 		map[string]struct{}{},
 	},
 	":chair:": Code{
 		"\U0001fa91",
+		map[string]struct{}{},
+	},
+	":plunger:": Code{
+		"\U0001faa0",
+		map[string]struct{}{},
+	},
+	":mouse_trap:": Code{
+		"\U0001faa4",
 		map[string]struct{}{},
 	},
 	":razor:": Code{
@@ -25543,8 +25798,16 @@ var Emojis = EmojiMap{
 			"toilet": struct{}{},
 		},
 	},
+	":bucket:": Code{
+		"\U0001faa3",
+		map[string]struct{}{},
+	},
 	":soap:": Code{
 		"\U0001f9fc",
+		map[string]struct{}{},
+	},
+	":toothbrush:": Code{
+		"\U0001faa5",
 		map[string]struct{}{},
 	},
 	":sponge:": Code{
@@ -25555,8 +25818,16 @@ var Emojis = EmojiMap{
 		"\U0001f9ef",
 		map[string]struct{}{},
 	},
+	":headstone:": Code{
+		"\U0001faa6",
+		map[string]struct{}{},
+	},
 	":funeral_urn:": Code{
 		"\u26b1\ufe0f",
+		map[string]struct{}{},
+	},
+	":placard:": Code{
+		"\U0001faa7",
 		map[string]struct{}{},
 	},
 	":atom_symbol:": Code{
@@ -25591,12 +25862,12 @@ var Emojis = EmojiMap{
 		"\u23cf\ufe0f",
 		map[string]struct{}{},
 	},
-	":infinity:": Code{
-		"\u267e\ufe0f",
+	":transgender_symbol:": Code{
+		"\u26a7\ufe0f",
 		map[string]struct{}{},
 	},
-	":fleur_de_lis:": Code{
-		"\u269c\ufe0f",
+	":infinity:": Code{
+		"\u267e\ufe0f",
 		map[string]struct{}{},
 	},
 	":heavy_exclamation_mark:": Code{
@@ -25604,6 +25875,10 @@ var Emojis = EmojiMap{
 		map[string]struct{}{
 			"bang": struct{}{},
 		},
+	},
+	":fleur_de_lis:": Code{
+		"\u269c\ufe0f",
+		map[string]struct{}{},
 	},
 	":orange_circle:": Code{
 		"\U0001f7e0",
@@ -25663,6 +25938,10 @@ var Emojis = EmojiMap{
 	},
 	":white_flag:": Code{
 		"\U0001f3f3\ufe0f",
+		map[string]struct{}{},
+	},
+	":transgender_flag:": Code{
+		"\U0001f3f3\ufe0f\u200d\u26a7\ufe0f",
 		map[string]struct{}{},
 	},
 	":pirate_flag:": Code{
